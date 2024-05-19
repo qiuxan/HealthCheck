@@ -4,7 +4,7 @@ import { environment } from '../../environments/environment';
 @Component({
   selector: 'app-health-check',
   templateUrl: './health-check.component.html',
-  styleUrls: ['./health-check.component.css']
+  styleUrls: ['./health-check.component.scss']
 })
 export class HealthCheckComponent implements OnInit {
   public result?: Result;
